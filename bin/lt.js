@@ -17,7 +17,7 @@ const { argv } = yargs
   .option('h', {
     alias: 'host',
     describe: 'Upstream server providing forwarding',
-    default: 'https://tun.aisnovations.com',
+    default: 'https://tun.symfa.com',
   })
   .option('s', {
     alias: 'subdomain',
